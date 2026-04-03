@@ -1,0 +1,15 @@
+{
+  "name": "ansigrivt-viewer",
+  "version": "1.0.0",
+  "description": "Interactive ANSI/ASCII art viewer with physics-based effects",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["ansi", "ascii", "art", "viewer", "cp437"],
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^5.0.0"
+  }
+}

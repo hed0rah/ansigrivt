@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# Font binaries - download the full collection from int10h.org/oldschool-pc-fonts
+# The default IBM VGA 9x16 font is included so the viewer works out of the box.
+fonts/*.woff
+public/fonts/*.woff
+!fonts/Web437_IBM_VGA_9x16.woff
+
+# Generated pack index and extracted art files (can be large, GB+)
+# Regenerate with: python3 scripts/index_packs.py
+packs/packs.json
+packs/extracted/
+public/packs/
+
+# Default startup art (site-specific, not part of the viewer itself)
+default.ans
+default.txt
+public/default.ans
+public/default.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.*
